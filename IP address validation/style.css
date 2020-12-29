@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 100px;
+    background-color: #8989db;
+}
+
+input{
+    padding:10px;
+    border:1px solid green;
+    border-radius: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: purple;
+}
+
+#ip_class{
+position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: white;
+}
+
