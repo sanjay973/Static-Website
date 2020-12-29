@@ -1,0 +1,116 @@
+.navbar{
+    flex-direction: column;
+    height: 90px;
+    padding: 20px;
+}
+
+.navbar a{
+    padding: 10px 10px;
+    margin: 0 3px;
+}
+
+.flex-items{
+    display: block;
+}
+
+.flex-columns .column, .flex-grid .column{
+    flex:100%;
+    max-width: 100%;
+}
+
+.footer{
+    height: 100px;
+}
+
+.fa-4x{
+    font-size: 35px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-links{
+    position: absolute;
+    right: 0;
+    height: 10.1vh;
+    top: 13.9vh;
+    background:rgba(1,1,1,0.8);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(-500%);
+    transition: transform 0.4s ease-in-out;
+    
+}
+
+/*hover */
+
+.hover-content{
+    box-sizing: border-box;
+    border-radius: 5%;
+    background: rgba(140,140,161,0.8);;
+    position: absolute;
+    top: 5%;
+    left: -1110%;
+    overflow: hidden;
+    height: 70%;
+    width: 91%;
+    padding: 20px;
+    color: white;
+    transition: all 1s;
+}
+
+.box>img:hover {
+ left: 4.5%;
+}
+
+
+.nav-links li{
+    padding: 10px;
+}
+
+.nav-links li a{
+    color: yellow;
+    display: flex;
+    
+}
+.burger{
+    display: block;
+    cursor: pointer;
+}
+
+.nav-active{
+    transform: translate(0%);
+    z-index: 1;
+}
+
+
+
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
